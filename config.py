@@ -12,12 +12,12 @@ def page_config():
     )
 
 
-# def page_style():
-#     hide_st_style = """
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             header {visibility: hidden;}
-#             </style>
-#             """
-#     return st.markdown(hide_st_style, unsafe_allow_html=True)
+def page_style():
+    hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+    return st.markdown(hide_st_style, unsafe_allow_html=True)
