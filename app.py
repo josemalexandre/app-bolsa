@@ -7,7 +7,7 @@ from config import *
 
 # Configuraçao da Página
 page_config()
-page_style()
+# page_style()
 path = Path(__file__).parent / 'data'
 tickers = pd.read_csv(path / 'tickers_sa.csv')
 
